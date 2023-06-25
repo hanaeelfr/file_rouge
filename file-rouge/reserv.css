@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Forum', cursive;
+}
+
+.navbare {
+    background-color: #EABEBE;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 99;
+}
+
+.navbare a {
+    color: white;
+    font-size: x-large;
+}
+
+.navbare .nav-links ul {
+    display: flex;
+}
+
+.navbare .nav-links ul li {
+    display: flex;
+    margin: 0 30px;
+}
+
+.navbare .logo {
+    width: 24%;
+    margin-left: 3%;
+}
+.content-wrapper {
+  min-height: calc(100vh - (10% + 10px)); 
+  margin-bottom: 10px; 
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.icons {
+    text-decoration: none;
+    font-size: xx-large;
+    color: #4B644D;
+    text-align: center;
+}
+
+.icons i {
+    width: 2%;
+}
+
+footer {
+    background-color: #EABEBE;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 1%;
+}
+
+footer h3 {
+  color: #ffff;
+  padding: 1%;
+}
+
+.text-center {
+    margin-top: 5%; /* Modifier cette ligne */
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
